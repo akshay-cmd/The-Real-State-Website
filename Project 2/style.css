@@ -1,0 +1,145 @@
+*{
+	margin:0;
+	padding:0;
+}
+.clearfix{
+	clear:both;
+	
+}
+#container{
+	width:100%;
+	margin:0 auto;
+	font-family:arial;
+}
+	header{
+		background:black;
+		width:100%;
+		color:white;
+	}
+	#left_header{
+		padding: 50px 0;
+		float:left;
+		margin-left:30px;
+		cursor:default;
+	}
+	#left_header:hover{
+		color:orange;
+	}
+	#right_header{
+		float:right;
+	}	
+	#right_header ul {}
+	#right_header ul li {
+		float:left;
+		padding:57px;
+		font-size:20px;
+		font-weight: bold;
+		list-style:none;
+		margin: 0 2px;
+		transition: background 1s;
+		cursor:pointer;
+	}
+	#right_header ul li:hover{
+		background:orange;
+	}
+	.main_img1{
+		width:100%;
+		height:100%;
+	}
+	.first_section{
+		padding: 0 5%
+	}
+	.first_section h2{
+		text-align:center;
+		font-size:60px;
+		padding:20px;
+		column-rule: #f1f1f1;
+		text-shadow: 0px 0px 5px black;
+		padding:40px;
+		color:#f1f1f1;
+	}
+	article{
+		width:23%;
+		margin:20px 1% 20px 0;
+		float:left;
+		color:#666;
+	}
+	.margin_left{
+		margin-left:2%;
+	}
+	.margin_right{
+		margin-right:0;
+	}
+	article img{
+		width:95%;
+	}
+	.article_title{
+		text-align:center;
+		font-size:30px;
+		margin:20px;
+		font-weight:bold;
+	}
+	.article_description{
+		text-align:justified;
+	}
+	.second_section{
+		background:url(Project/realstate2.jpg);
+		width:100%;
+		height:1000px;
+		padding:50px 50px ;
+		box-sizing:border-box;
+	}
+	.second_section h2{
+		text-align:center;
+		font-size:60px;
+		color:white;
+	}
+	.second_section h2:hover{
+		text-decoration:underline;
+	}
+	.second_section .left_side{
+		width:40%;
+		float:left;
+	}
+	.second_section .left_side img{
+		width:100%;
+		height:100%;
+		border:1px solid black;
+		border-radius:40px;
+	}
+	.second_section .right_side{
+		width:40%;
+		float:right;
+		color:white;
+		background:black;
+		padding:13px;
+		border:5px solid white;
+		font-size:16.5px;
+		border-radius:20px;
+	}
+	footer{
+		width:100%;
+		background:black;
+		color:white;
+	}
+	.left_footer{
+		padding:20px;
+		float:left;
+	}
+	.right_footer{}
+	.right_footer ul{
+		list-style:none;
+	}
+	.right_footer ul li{
+		float:right;
+		padding:20px 20px;
+		font-weight:bold;
+		font-size:18px;
+		color:white;
+		transition: color 2s;
+		cursor:pointer;
+	}
+	.right_footer ul li:hover{
+		color:orange;
+		
+	}
